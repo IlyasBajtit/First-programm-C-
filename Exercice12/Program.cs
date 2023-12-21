@@ -9,23 +9,23 @@ if (age < 3)
 {
     Console.WriteLine("Votre enfant est trop jeune");
 }
-else if (age >= 3 && age <= 6)
+else if (age <= 6)
 {
     Console.WriteLine("Baby");
 }
-else if (age >= 7 && age <= 8)
+else if ( age <= 8)
 {
     Console.WriteLine(" Poussin");
 }
-else if (age >= 9 && age <= 10)
+else if (age <= 10)
 {
     Console.WriteLine(" Pupille");
 }
-else if (age >= 11 && age <= 12)
+else if ( age <= 12)
 {
     Console.WriteLine(" Minime");
 }
-else if (age == 13)
+else if (age <= 13)
 {
     Console.WriteLine(" Cadet");
 }
