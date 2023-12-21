@@ -1,19 +1,40 @@
-﻿
-
-Console.WriteLine("--- Le nombre est-il divisible par ...? ---");
-
+﻿Console.WriteLine("*** Le nombre est-il divisible par...? ***\n");
 Console.Write("Entrez un chiffre/nombre entier : ");
-int nbentier = int.Parse(Console.ReadLine());
+//int nbEntier = Convert.ToInt32(Console.ReadLine());
+int nbEntier;
+bool saisieValide = int.TryParse(Console.ReadLine(), out nbEntier);
 
 Console.Write("Entrez un chiffre/nombre diviseur : ");
-int nbdiviseur = int.Parse(Console.ReadLine());
+//int nbDiviseur = Convert.ToInt32(Console.ReadLine());
+int nbDiviseur;
+saisieValide = saisieValide & int.TryParse(Console.ReadLine(), out nbDiviseur);
 
 
-if (nbentier % nbdiviseur == 0)
+if (!saisieValide)
 {
-     Console.Write($"Le chiffre/nombre est divisible par {nbdiviseur} ");
+    Console.WriteLine("Saisie invalide");
+    return;
+    // on quitte la méthode Main de la classe Program
+    // permet d'arréter notre application
+    //Environment.Exit(0); // permet aussi d'arréter notre application
 }
+
+
+Console.WriteLine();
+
+// TERNAIRE
+// var variable = <Condition> ? <Valeur si Vrai> : <Valeur si Faux>;
+string chiffreOuNombre = (-10 < nbEntier && nbEntier < 10) ? "chiffre" : "nombre";
+// équivalent:
+//string chiffreOuNombre = "nombre";
+//if (-10 < nbEntier && nbEntier < 10)
+//    chiffreOuNombre = "chiffre";
+
+if (nbEntier % nbDiviseur == 0)
+    Console.WriteLine($"Le {chiffreOuNombre} est divisible par {nbDiviseur}");
 else
-{
-    Console.WriteLine($"Le chiffre/nombre n'est pas divisible par {nbdiviseur}");
-}
+    Console.WriteLine($"Le {chiffreOuNombre} n'est pas divisible par {nbDiviseur}");
+
+string divisibleOuNon = (nbEntier % nbDiviseur == 0) ? "est" : "n'est pas";
+
+Console.WriteLine($"Le {chiffreOuNombre} {divisibleOuNon} divisible par {nbDiviseur}");
