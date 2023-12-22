@@ -12,3 +12,14 @@ for (int i = 1; i <= 10; i++)
 
 }
 
+
+/*Correction:
+
+for (int table = 1; table <= 10; table++)
+{
+    Console.WriteLine("Table de " + table);
+    for (int multi = 1; multi <= 10; multi++)
+      Console.WriteLine($"\t {table} x {multi} = {table * multi}");
+}
+
+*/
