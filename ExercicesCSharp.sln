@@ -29,29 +29,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice12", "Exercice12\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice13", "Exercice13\Exercice13.csproj", "{B4B52466-4F32-4869-8109-7C2568E23798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice14", "Exercice14\Exercice14.csproj", "{2E4A3513-FCBE-448A-AD03-0DCBD5A8ACC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice14", "Exercice14\Exercice14.csproj", "{2E4A3513-FCBE-448A-AD03-0DCBD5A8ACC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice15", "Exercice15\Exercice15.csproj", "{5759949E-3D94-4DB0-825F-8FBDB3DD4B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice15", "Exercice15\Exercice15.csproj", "{5759949E-3D94-4DB0-825F-8FBDB3DD4B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice17", "Exercice17\Exercice17.csproj", "{F499A706-7B97-403D-A250-43E23EF066C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice17", "Exercice17\Exercice17.csproj", "{F499A706-7B97-403D-A250-43E23EF066C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice18", "Exercice18\Exercice18.csproj", "{82645079-0CB9-4602-B77D-159C0A347FD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice18", "Exercice18\Exercice18.csproj", "{82645079-0CB9-4602-B77D-159C0A347FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice20", "Exercice20\Exercice20.csproj", "{3B609A06-302F-45D9-97F6-CA93B3EB3332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice20", "Exercice20\Exercice20.csproj", "{3B609A06-302F-45D9-97F6-CA93B3EB3332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice21", "Exercice21\Exercice21.csproj", "{83527437-C4A1-4FB3-9BAC-D3423D5D4968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice21", "Exercice21\Exercice21.csproj", "{83527437-C4A1-4FB3-9BAC-D3423D5D4968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice22", "Exercice22\Exercice22.csproj", "{F91F1BDE-114F-4D1F-9817-8E6EC8EC9EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice22", "Exercice22\Exercice22.csproj", "{F91F1BDE-114F-4D1F-9817-8E6EC8EC9EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice23", "Exercice23\Exercice23.csproj", "{C9AD231C-2836-4739-8808-60426CF49BBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice23", "Exercice23\Exercice23.csproj", "{C9AD231C-2836-4739-8808-60426CF49BBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice24", "Exercice24\Exercice24.csproj", "{3923566B-FEEC-4EE7-BC45-0C6335AB311E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice24", "Exercice24\Exercice24.csproj", "{3923566B-FEEC-4EE7-BC45-0C6335AB311E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice25", "Exercice25\Exercice25.csproj", "{24BA8342-6BB0-4DFF-AE5F-7153290AF636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice25", "Exercice25\Exercice25.csproj", "{24BA8342-6BB0-4DFF-AE5F-7153290AF636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus1", "Bonus1\Bonus1.csproj", "{D3CECA03-4B04-4545-9A83-56F234D34C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus1", "Bonus1\Bonus1.csproj", "{D3CECA03-4B04-4545-9A83-56F234D34C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonus2", "Bonus2\Bonus2.csproj", "{D56793DE-43EA-4834-9155-EB557EAB336F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus2", "Bonus2\Bonus2.csproj", "{D56793DE-43EA-4834-9155-EB557EAB336F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice25 bis", "Exercice25 bis\Exercice25 bis.csproj", "{4FFE4401-50EE-4F11-B0F7-5735B3CB9C4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{D56793DE-43EA-4834-9155-EB557EAB336F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D56793DE-43EA-4834-9155-EB557EAB336F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D56793DE-43EA-4834-9155-EB557EAB336F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFE4401-50EE-4F11-B0F7-5735B3CB9C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFE4401-50EE-4F11-B0F7-5735B3CB9C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFE4401-50EE-4F11-B0F7-5735B3CB9C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFE4401-50EE-4F11-B0F7-5735B3CB9C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
