@@ -7,3 +7,8 @@ Console.WriteLine(i);
 
 Console.WriteLine("Super ! Je sais compter jusqu'a 10 ! ");
 
+
+/*Correction:
+
+for (int i = 1; i <= 10; i++)
+    Console.WriteLine("\t" + i);*/
