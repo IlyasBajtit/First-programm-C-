@@ -1,21 +1,19 @@
-﻿using System;
-
-class Program
-{
-    static void Main()
+﻿
     {
         Console.WriteLine("Entrez la hauteur du sapin de Noël :");
         int hauteurSapin;
         if (!int.TryParse(Console.ReadLine(), out hauteurSapin) || hauteurSapin < 1)
         {
-            
+            Console.WriteLine("Veuillez entrer un nombre entier positif pour la hauteur du sapin.");
+            return;
         }
 
         Console.WriteLine("Entrez la hauteur du tronc du sapin :");
         int hauteurTronc;
         if (!int.TryParse(Console.ReadLine(), out hauteurTronc) || hauteurTronc < 1)
         {
-           
+            Console.WriteLine("Veuillez entrer un nombre entier positif pour la hauteur du tronc.");
+            return;
         }
 
         for (int i = 0; i < hauteurSapin; i++)
@@ -40,5 +38,4 @@ class Program
             Console.WriteLine("| |");
         }
     }
-}
 
