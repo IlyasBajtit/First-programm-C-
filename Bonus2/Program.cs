@@ -20,12 +20,16 @@ for (int i = 1; i <= nbTables; i++)
 {
     Console.ForegroundColor = colors[i % colors.Count];
     Console.Write("|");
+
+    Console.ForegroundColor = colors[i % colors.Count];
+
     for (int j = 1; j <= largeurTables; j++)
     {
-        Console.ForegroundColor = colors[(i + j) % colors.Count];
         Console.Write($"{i * j,largeurCol}|");
     }
-    Console.WriteLine();
+
     Console.ForegroundColor = ConsoleColor.White;
+
+    Console.WriteLine();
     Console.WriteLine(barre);
 }
