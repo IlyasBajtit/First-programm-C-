@@ -13,7 +13,7 @@ for (int i = 0; i < tab.Length; i++)
     else
     {
         Console.WriteLine("Veuillez entrer une valeur numérique.");
-        i--; // Permet à l'utilisateur de réessayer pour la même position
+        i--; 
     }
 }
 
