@@ -28,3 +28,4 @@ for (year = year0; pop < popMax; year++)
 Console.WriteLine($"Il faudra {year - year0} ans, nous serons en {year}");
 Console.WriteLine($"Il y aura {Math.Round(pop)} habitants en {year}");
 Console.WriteLine($"Il y aura {pop:F0} habitants en {year}");*/
+
