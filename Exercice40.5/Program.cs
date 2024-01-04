@@ -1,4 +1,6 @@
-﻿(double, double, double,double) Operation(double a, double b)
+﻿
+// Tuple
+(double, double, double,double) Operation(double a, double b)
 {
     double somme = a + b;
     double diff = a - b;
